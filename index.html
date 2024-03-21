@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>Giphy API</title>
 </head>
 <body>
     <img src="#">
     <script>
         const img = document.querySelector('img');
-            fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats', { mode: 'cors' })
+            fetch('https://api.giphy.com/v1/gifs/translate?api_key=jmE0xWW7QRBDZdV7PuTiHtydcLkyrMn8&s=cats', { mode: 'cors' })
                 .then(function (response) {
                     return response.json();
                 })
